@@ -1,0 +1,488 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gaegu:wght@300&family=Noto+Sans+KR:wght@100;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amatic SC', cursive;
+    user-select: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#menubar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #be0000;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.menubarLogo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.menubar_items{
+    display: flex;
+    list-style: none;
+}
+
+.menubar_items li{
+    padding: 12px 20px;
+    font-size: 30px;
+}
+
+.menubar_items li:hover{
+    background-color: #640000;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#toggleBtn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: none;    
+}
+
+
+
+#conlogo{
+    background-color: #be0000;
+    width: 100%;
+    height: 100%;
+}
+
+#mainlogo{
+    display: flex;
+    padding-top: 100px;
+    width: 497px;
+    margin: auto;
+}
+
+h1{
+    padding-top: 2px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 240px;
+    text-align: center;
+}
+
+#constory{
+    background-color: #be0000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#storycontents{
+    width: 880px;
+    padding-top: 180px;
+    padding-bottom: 300px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+#conprofile{
+    background-color: #be0000;
+    width: 100%;
+    height: 100%;
+}
+
+#profile_title{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+#profile_main{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#smallman{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+#textsm{
+    width: 120px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#imagsm{
+    width: 25px;
+}
+
+#workman{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+
+#textwm{
+    width: 130px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+#imagwm{
+    width: 180px;
+}
+
+#conillust{
+    background-color: #790000;
+    width: 100%;
+    height: 100%;
+}
+
+#illust_title{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+#illust_main{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+
+#bgill1{
+    width: 25%;
+}
+
+#bgill2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#bgill3{
+    width: 25%;
+}   
+
+#bgill4{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mdill2_1{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+}
+
+#mdill2_2{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+}
+
+#mdill4_1{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+}
+
+#mdill4_2{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+}
+
+#smill2_1{
+    width: 50%;
+    height: 100%;
+}
+
+#smill2_2{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+}
+
+#smill2_3{
+    background-color: #640000;
+    width: 50%;
+    height: 100%;
+}
+
+#smill2_4{
+    width: 50%;
+    height: 100%;
+}
+
+#smill4_1{
+    background-color: rgb(63, 0, 0);
+    width: 50%;
+    height: 100%;
+}
+
+#smill4_2{
+    background-color: rgb(63, 0, 0);
+    width: 50%;
+    height: 100%;
+}
+
+#smill4_3{
+    background-color: #be0000;
+    width: 50%;
+    height: 100%;
+}
+
+#smill4_4{
+    background-color: #131313;
+    width: 50%;
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+@media (max-width:768px)
+{
+    body{
+        width: 100%;
+    }
+    #menubar{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .menubarLogo{
+        padding: 0px 15px;
+    }
+
+    .menubar_items{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .menubar_items li{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        background-color: black;
+    }
+
+    #toggleBtn{
+        display: block;
+    }
+
+    .menubar_items.active,
+    .menubar_link.active{
+        top: 45px;
+        position: absolute;
+        display: flex;
+        
+    }
+
+    #mainlogo{
+        padding-top: 140px;
+        width: 300px;
+    }
+
+    h1{
+        padding: 20px;
+        font-size: 110px;
+    }
+
+    #storycontents{
+        width: 350px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        font-size: 16px;
+    }
+
+    #profile_title{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 50px;
+    }
+    
+    #smallman{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    
+    #imagsm{
+        width: 14px;
+    }
+
+    #textsm{
+        width: 70px;
+        font-size: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #workman{
+        margin-left: 35px;
+        margin-right: 30px;
+    }
+    
+    #imagwm{
+        width: 100px;
+    }
+
+    #textwm{
+        width: 80px;
+        font-size: 11px;
+        margin-left: 10px;
+        
+    }
+
+    #illust_title{
+        padding-bottom: 60px;
+        font-size: 50px;
+    }
+    
+    #illust_main{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    #bgill1{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #bgill2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #bgill3{
+        width: 100%;
+    }   
+    
+    #bgill4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #mdill2_1{
+        display: inline-flex;
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+    }
+    
+    #mdill2_2{
+        display: inline-flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    #mdill4_1{
+        display: inline-flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    #mdill4_2{
+        display: inline-flex;
+        background-color: #790000;
+        width: 100%;
+        height: 50%;
+    }
+    
+    #smill2_1{
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill2_2{
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill2_3{
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill2_4{
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill4_1{
+        background-color: black;
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill4_2{
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill4_3{
+        background-color: #be0000;
+        width: 50%;
+        height: 100%;
+    }
+    
+    #smill4_4{
+        background-color: #6d6d6d;
+        width: 50%;
+        height: 100%;
+    }
+
+}
